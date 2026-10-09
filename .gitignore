@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+TestResults/
+*.nupkg
+*.snupkg
+appsettings.Development.json
+.env

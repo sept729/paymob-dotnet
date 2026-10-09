@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{20D20788-848F-4EF1-A6F1-98A2AABA420F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paymob.Net", "src\Paymob.Net\Paymob.Net.csproj", "{BFAF0DAE-27D5-4CAE-93BD-9936424A59A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4E083C6D-19EC-4F30-9313-DF98EBEC8CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paymob.Net.Tests", "tests\Paymob.Net.Tests\Paymob.Net.Tests.csproj", "{3C2AE91E-B949-4E7F-BFDE-B17C8195EA71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{729A233B-D6EF-48F7-95CB-45C857522BFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paymob.Sample.Api", "samples\Paymob.Sample.Api\Paymob.Sample.Api.csproj", "{723BC4CB-30DB-4E63-AA37-FED7E3FBBE3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFAF0DAE-27D5-4CAE-93BD-9936424A59A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAF0DAE-27D5-4CAE-93BD-9936424A59A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAF0DAE-27D5-4CAE-93BD-9936424A59A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAF0DAE-27D5-4CAE-93BD-9936424A59A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2AE91E-B949-4E7F-BFDE-B17C8195EA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2AE91E-B949-4E7F-BFDE-B17C8195EA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2AE91E-B949-4E7F-BFDE-B17C8195EA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2AE91E-B949-4E7F-BFDE-B17C8195EA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{723BC4CB-30DB-4E63-AA37-FED7E3FBBE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723BC4CB-30DB-4E63-AA37-FED7E3FBBE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723BC4CB-30DB-4E63-AA37-FED7E3FBBE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723BC4CB-30DB-4E63-AA37-FED7E3FBBE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFAF0DAE-27D5-4CAE-93BD-9936424A59A7} = {20D20788-848F-4EF1-A6F1-98A2AABA420F}
+		{3C2AE91E-B949-4E7F-BFDE-B17C8195EA71} = {4E083C6D-19EC-4F30-9313-DF98EBEC8CF1}
+		{723BC4CB-30DB-4E63-AA37-FED7E3FBBE3B} = {729A233B-D6EF-48F7-95CB-45C857522BFF}
+	EndGlobalSection
+EndGlobal
